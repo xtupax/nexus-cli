@@ -95,7 +95,7 @@ pub async fn setup_session(
 
     // Clamp the number of workers to [1, 75% of num_cores]. Leave room for other processes.
     let total_cores = crate::system::num_cores();
-    let max_workers = ((total_cores as f64 * 1).ceil() as usize).max(1);
+    let max_workers = ((total_cores as f64 * 1.0).ceil() as usize).max(1);
     let num_workers: usize = max_threads.unwrap_or(1).clamp(1, max_workers as u32) as usize;
 
     // Additional memory warning if explicitly requested
