@@ -9,27 +9,16 @@
 
 A high-performance command-line interface for contributing proofs to the Nexus network.
 
-<figure>
-    <a href="https://nexus.xyz/">
-        <img src="assets/images/nexus-network-image.png" alt="Nexus Network visualization showing a distributed network of interconnected nodes with a 'Launch Network' button in the center">
-    </a>
-    <figcaption>
-        <strong>Verifiable Computation on a Global Scale</strong><br>
-        We're building a global distributed prover network to unite the world's computers and power a new and better Internet: the Verifiable Internet. Connect to the beta and give it a try today.
-    </figcaption>
-</figure>
-
 ## Nexus Network
 
-[Nexus](https://nexus.xyz/) is a global distributed prover network that unites the world's computers to power a new and
-better Internet: the Verifiable Internet.
+The [Nexus network](https://app.nexus.xyz/compute) unifies compute from nodes around the world into one verifiable system state. [Learn more](https://docs.nexus.xyz/network).
 
 There have been several testnets so far:
 
 - Testnet 0: [October 8 – 28, 2024](https://blog.nexus.xyz/nexus-launches-worlds-first-open-prover-network/)
 - Testnet I: [December 9 – 13, 2024](https://blog.nexus.xyz/the-new-nexus-testnet-is-live/)
 - Testnet II: [February 18 – 22, 2025](https://blog.nexus.xyz/testnet-ii-is-open/)
-- Devnet: [February 22 - June 20, 2025](https://docs.nexus.xyz/layer-1/testnet/devnet)
+- Devnet: [February 22 - June 20, 2025](https://docs.nexus.xyz/network/proving-on-the-layer-1/nexus-layer-1-devnet)
 - Testnet III: [Ongoing](https://blog.nexus.xyz/live-everywhere/)
 
 ---
@@ -60,7 +49,7 @@ NONINTERACTIVE=1 ./install.sh
 
 ### Proving
 
-Proving with the CLI is documented [here](https://docs.nexus.xyz/layer-1/testnet/cli-node).
+Proving with the CLI is documented [here](https://docs.nexus.xyz/network/proving-on-the-layer-1/contribute-via-cli).
 
 To start with an existing node ID, run:
 
@@ -216,7 +205,7 @@ following format:
 
 ## Get Help
 
-- [Network FAQ](https://docs.nexus.xyz/layer-1/testnet/faq)
+- [Network FAQ](https://docs.nexus.xyz/network/proving-on-the-layer-1/faq)
 - [Discord Community](https://discord.gg/nexus-xyz)
 - Technical issues? [Open an issue](https://github.com/nexus-xyz/nexus-cli/issues)
 - To submit programs to the network for proving, contact
